@@ -41,9 +41,11 @@ HTTPSの場合はSSL/TLSというセキュアなプロトコルを利用して�
 ### REST APIの規則   
 - URIはリソースを表現しなければならない（リソース名は動詞ではなく、名詞を使用)    
 - リソースの操作は、HTTPメソッド（GET、POST、PUT、DELETEなど）で表現する  
-<br>
+<br>  
+
 # SpringBootでREST開発  
-<br>
+<br>  
+
 ### ＠RestController  
 @RestControllerアノテーションをクラスに付けるとそのクラス内のメソッドの戻り値をRESTで受け取ることが出来る。  
 正確にはメソッドの戻り値がHttPのレスポンスボディとして返される。  
