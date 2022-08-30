@@ -1,11 +1,43 @@
 # RaiseTech_subject7
 # 第７回課題　＜REST API開発＞  
 
-#### ①実装例のコードをgithubにpush  
-#### ②http://localhost:8080/names?name=koyama のようにクエリ文字列を受け取れるようにする  
-#### ③名前以外にも生年月日を受け取れるよう実装する  
-#### ④バリデーションについて調べてnameが空文字、null、20文字以上の場合はエラーとする  
+- ①実装例のコードをgithubにpush  
+- ②http://localhost:8080/names?name=koyama のようにクエリ文字列を受け取れるようにする  
+- ③名前以外にも生年月日を受け取れるよう実装する  
+- ④バリデーションについて調べてnameが空文字、null、20文字以上の場合はエラーとする  
 <br>  
+
+# RESTとは = 「シンプルなWebシステムの設計思想」 
+「REpresentational State Transfer」= 「具体的に状態を定義した情報のやり取り」  
+これについて**RESTの4原則**というものがあり、これを満たすものを**RESTfulなシステム**と呼んだりする。  
+<br>  
+
+### RESTの４原則  
+  - 統一インターフェース  
+  - アドレス可能性  
+  - 接続性  
+  - ステートレス性  
+  
+
+## REST APIとは = 「プログラムの情報をやり取りする蛇口のようなもの」    
+「Application Programming Interface」の頭文字を取ったもの。  
+このAPIを使用することで(1)HTTPプロトコルを使って外部からWebアプリのデータを取得したり機能を利用したりすることができるようになる。
+<br>  
+(1)HTTPプロトコル  
+「http:」の部分。ホームページのファイル移動用の約束事。  
+HTTPSの場合はSSL/TLSというセキュアなプロトコルを利用して通信を暗号化（Secure Sockets Layer/Transport Layer Security） 
+<br>   
+
+## REST APIの設計ガイド
+- URIは情報の資源を表現しなければならない。  
+- 資源の行為は、HTTPメソッド（GET、POST、PUT、DELETE）で表現する。   
+
+### REST APIの規則   
+- URIはリソースを表現しなければならない（リソース名は動詞ではなく、名詞を使用)    
+- リソースの操作は、HTTPメソッド（GET、POST、PUT、DELETEなど）で表現する  
+
+
+
 
 #### クエリ文字列とは  
 WebブラウザなどがWebサーバに送信するデータを、送信先を指定する URL の末尾に特定の形式で表記したもの。  
