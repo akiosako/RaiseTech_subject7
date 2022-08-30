@@ -8,7 +8,7 @@
 <br>  
 
 # RESTとは = 「シンプルなWebシステムの設計思想」 
-「Rpresentational State Transfer」= 「具体的に状態を定義した情報のやり取り」  
+「Representational State Transfer」= 「具体的に状態を定義した情報のやり取り」  
 これについて**RESTの4原則**というものがあり、これを満たすものを**RESTfulなシステム**と呼んだりする。  
 <br>  
 
