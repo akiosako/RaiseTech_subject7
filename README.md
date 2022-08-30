@@ -8,7 +8,7 @@
 <br>  
 
 # RESTとは = 「シンプルなWebシステムの設計思想」 
-「REpresentational State Transfer」= 「具体的に状態を定義した情報のやり取り」  
+「Rpresentational State Transfer」= 「具体的に状態を定義した情報のやり取り」  
 これについて**RESTの4原則**というものがあり、これを満たすものを**RESTfulなシステム**と呼んだりする。  
 <br>  
 
@@ -21,9 +21,9 @@
 
 ## REST APIとは = 「プログラムの情報をやり取りする蛇口のようなもの」    
 「Application Programming Interface」の頭文字を取ったもの。  
-このAPIを使用することで(1)HTTPプロトコルを使って外部からWebアプリのデータを取得したり機能を利用したりすることができるようになる。
+このAPIを使用することで**HTTPプロトコル**を使って外部からWebアプリのデータを取得したり機能を利用したりすることができるようになる。
 <br>  
-(1)HTTPプロトコル  
+HTTPプロトコル  
 「http:」の部分。ホームページのファイル移動用の約束事。  
 HTTPSの場合はSSL/TLSというセキュアなプロトコルを利用して通信を暗号化（Secure Sockets Layer/Transport Layer Security） 
 <br>   
