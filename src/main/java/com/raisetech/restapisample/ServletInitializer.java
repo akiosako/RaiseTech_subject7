@@ -1,4 +1,4 @@
-package RaiseTech.REST_API_Sample;
+package com.raisetech.restapisample;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

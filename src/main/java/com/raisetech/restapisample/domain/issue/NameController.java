@@ -1,21 +1,21 @@
-package RaiseTech.REST_API_Sample.Controller;
+package com.raisetech.restapisample.domain.issue;
 
-import RaiseTech.REST_API_Sample.Form.CreateForm;
-import RaiseTech.REST_API_Sample.Form.DeleteForm;
-import RaiseTech.REST_API_Sample.Form.UpdateForm;
+import com.raisetech.restapisample.Form.CreateForm;
+import com.raisetech.restapisample.Form.DeleteForm;
+import com.raisetech.restapisample.Form.UpdateForm;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
+
 import java.net.URI;
-import java.util.List;
 import java.util.Map;
 
 
 @RestController
 public class NameController {
     @GetMapping("/names")
-    public List<String> getNames() {
-        return List.of("koyama", "tanaka");
+    public String getName(@RequestParam(name = "name") String name) {
+        return name;
     }
 
     @PostMapping("/names")
