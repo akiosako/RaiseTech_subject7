@@ -6,14 +6,15 @@ import RaiseTech.REST_API_Sample.Form.UpdateForm;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
+
 import java.net.URI;
 import java.util.Map;
 
 
 @RestController
-public class NameController{
+public class NameController {
     @GetMapping("/names")
-    public String getName(@RequestParam(name = "name")String name){
+    public String getName(@RequestParam(name = "name") String name) {
         return name;
     }
 
