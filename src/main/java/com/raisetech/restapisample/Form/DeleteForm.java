@@ -1,4 +1,4 @@
-package RaiseTech.REST_API_Sample.Form;
+package com.raisetech.restapisample.Form;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -6,5 +6,5 @@ import lombok.Setter;
 @Setter
 @Getter
 public class DeleteForm {
-    private  String name;
+    private String name;
 }

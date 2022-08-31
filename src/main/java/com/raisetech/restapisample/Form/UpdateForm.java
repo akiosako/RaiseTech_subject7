@@ -1,12 +1,11 @@
-package RaiseTech.REST_API_Sample.Form;
+package com.raisetech.restapisample.Form;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class CreateForm {
+public class UpdateForm {
     private String name;
 }
-
 

@@ -1,8 +1,8 @@
-package RaiseTech.REST_API_Sample.domain.issue;
+package com.raisetech.restapisample.domain.issue;
 
-import RaiseTech.REST_API_Sample.Form.CreateForm;
-import RaiseTech.REST_API_Sample.Form.DeleteForm;
-import RaiseTech.REST_API_Sample.Form.UpdateForm;
+import com.raisetech.restapisample.Form.CreateForm;
+import com.raisetech.restapisample.Form.DeleteForm;
+import com.raisetech.restapisample.Form.UpdateForm;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
